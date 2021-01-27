@@ -1,0 +1,155 @@
+body {
+  display: flex;
+  justify-content: center;
+  font-family: "Raleway";
+}
+
+.box-header {
+  width: 1600px;
+  height: 4545px;
+  outline: 1px solid black;
+  margin: 80px;
+}
+.blok_background {
+  background: url(../Pictures/BG.png) no-repeat 100% 100%;
+  background-size: cover;
+  width: 1600px;
+  height: 747px;
+}
+.menu__element {
+  display: flex;
+  justify-content: space-between;
+  width: 1439px;
+  height: 50px;
+  padding: 48px 80px 8px;
+}
+
+.logo {
+  background: url(../Pictures/icon.png) no-repeat 3% 3%;
+  background-size: cover;
+  width: 320px;
+  height: 50px;
+}
+.menu_button {
+  margin: auto 21px 0px;
+  padding: 15px 25px 5px;
+}
+.menu__button {
+  width: 81px;
+  height: 30px;
+  background: transparent;
+  color: #ffffff;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  font-size: 15px;
+  line-height: 25px;
+  font-weight: 600;
+}
+.menu__button:hover {
+  background-color: #000000;
+}
+
+.stily_button {
+  margin: auto 21px 0px;
+  padding: 15px 25px 9px;
+}
+.menu___button {
+  font-size: 12px;
+  line-height: 25px;
+  font-weight: 400;
+  color: #ffffff;
+  background: transparent;
+  outline: 1px solid #ffffff;
+  border: none;
+}
+.menu___button:hover {
+  background-color: #000000;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+}
+.header_element {
+  margin: 83, 5px 99px 15px;
+  padding: 83, 5px 0px 0px 0px;
+}
+.header_video {
+  margin: 147px 91px 101px;
+  padding: 65px 36px 6px 53px;
+  background: url(../Pictures/video.png) no-repeat 100% 100%;
+  background-size: cover;
+  width: 598px;
+  height: 322px;
+  outline: 1px;
+}
+
+.header__contents {
+  font-size: 55px;
+  line-height: 65px;
+  color: #ffffff;
+  font-weight: 800;
+  margin: 167px 83px 0px;
+}
+.header__text {
+  width: 591px;
+  height: 101px;
+  margin: 2px 0px 0px 89px;
+  font-size: 18px;
+  line-height: 35px;
+  color: #ffffff;
+  font-weight: 400;
+}
+.header__button {
+  margin: 45px;
+  padding: 18px 45px;
+}
+.button___fon {
+  font-size: 15px;
+  color: #000000;
+  font-weight: 400;
+  height: 58px;
+  width: 150px;
+  outline: none;
+  cursor: pointer;
+  border-radius: 10px;
+}
+.button___blek {
+  font-size: 15px;
+  color: #000000;
+  font-weight: 400;
+  height: 58px;
+  width: 150px;
+  outline: none;
+  cursor: pointer;
+  border-radius: 10px;
+  margin: 0px 20px;
+}
+.button___fon:hover {
+  background-color: #000000;
+  color: #ffffff;
+}
+.button___blek:hover {
+  background-color: #000000;
+  color: #ffffff;
+}
+.Play_Button {
+  background: url(../Pictures/PlayButton.png) no-repeat 100% 100%;
+  background-size: cover;
+  height: 100px;
+  width: 100px;
+  cursor: pointer;
+  border: none;
+  outline: none;
+  margin: 65px 0px 0px 217px;
+}
+.header-text {
+  margin: 11px 54px 10px 0px;
+}
+.header_text {
+  font-size: 12px;
+  color: #061e37;
+  font-weight: 700;
+  font-family: "Raleway";
+  text-align: center;
+}

@@ -1,0 +1,25 @@
+
+     { 
+    "overrides": [
+         {
+        "files": "*.js, *.css, .*html",
+        "trailingComma": "es5",
+        "tabWidth": 5,
+        "semi": false,
+        "singleQuote": true,
+        "options": {
+          "parser": "flow"
+           }
+          }
+         ]   
+        }  
+    
+    
+          
+     
+  
+
+   
+  
+
+
