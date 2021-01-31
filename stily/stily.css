@@ -181,7 +181,6 @@ body {
   width: 100%;
   max-width: 1600px;
   height: 807px;
-  outline: 1px solid #000000;
 }
 
 .article_title {
@@ -203,7 +202,6 @@ body {
 }
 .article_string {
   width: 100%;
-  /* max-width: 565px; */
   height: 63px;
   font-size: 15px;
   line-height: 25px;
@@ -212,6 +210,7 @@ body {
   font-family: "Raleway";
   text-align: center;
 }
+
 .article {
   display: flex;
   justify-content: space-between;
@@ -277,4 +276,103 @@ body {
 .article__button:hover {
   background-color: #000000;
   color: #ffffff;
+}
+.const-blok {
+  display: flex;
+  width: 100%;
+  max-width: 1600px;
+  height: 150px;
+  outline: 1px solid black;
+}
+.const_box_buslness {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 400px;
+  height: 150px;
+  background-color: #80d8ff;
+}
+
+.const_box_downloads {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 398px;
+  height: 150px;
+  background-color: #82b1ff;
+  margin: 0px;
+}
+.const_box_installs {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 398px;
+  height: 150px;
+  background-color: #b388ff;
+}
+.const_box_user {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 404px;
+  height: 150px;
+  background-color: #ea80fc;
+}
+.const__box__elips {
+  display: flex;
+  justify-content: center;
+  width: 60px;
+  height: 60px;
+  border-radius: 30px;
+  background-color: #ffffff;
+  margin: 0px 0px 0px 33px;
+}
+.const__box__icons {
+  background: url(../Pictures/business.png) no-repeat 100% 100%;
+  background-size: cover;
+  width: 26px;
+  height: 24px;
+  margin: 17px 17px 17px 17px;
+}
+.const__box__text {
+  font-size: 20px;
+  line-height: 25px;
+  color: #ffffff;
+  font-weight: 800;
+  font-family: "Raleway";
+  margin: 9px 199px 1px 15px;
+}
+.const_rew {
+  display: flex;
+  justify-content: space-around;
+}
+.const__box_icons {
+  background: url(../Pictures/file_download.png) no-repeat 100% 100%;
+  background-size: cover;
+  width: 26px;
+  height: 24px;
+  margin: 17px 17px 17px 17px;
+}
+.const__box___icons {
+  background: url(../Pictures/person.png) no-repeat 100% 100%;
+  background-size: cover;
+  width: 26px;
+  height: 24px;
+  margin: 17px 17px 17px 17px;
+}
+.const__box__texts {
+  font-size: 20px;
+  line-height: 25px;
+  color: #ffffff;
+  font-weight: 800;
+  font-family: "Raleway";
+  margin: auto 0;
+  padding: 0px 145px 0px 0px;
+}
+.const__box__icon_download {
+  background: url(../Pictures/person.png) no-repeat 100% 100%;
+  background-size: cover;
+  width: 26px;
+  height: 24px;
+  margin: 17px 17px 17px 17px;
 }
