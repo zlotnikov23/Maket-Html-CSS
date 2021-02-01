@@ -370,9 +370,9 @@ body {
   padding: 0px 145px 0px 0px;
 }
 .const__box__icon_download {
-  background: url(../Pictures/person.png) no-repeat 100% 100%;
+  background: url(../Pictures/file_downloads.png) no-repeat 100% 100%;
   background-size: cover;
-  width: 26px;
+  width: 23px;
   height: 24px;
   margin: 17px 17px 17px 17px;
 }
