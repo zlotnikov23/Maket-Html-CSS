@@ -376,3 +376,11 @@ body {
   height: 24px;
   margin: 17px 17px 17px 17px;
 }
+.article__title {
+  font-size: 20px;
+  line-height: 25px;
+  color: #061e37;
+  font-weight: 600;
+  font-family: "Raleway";
+  text-align: center;
+}
