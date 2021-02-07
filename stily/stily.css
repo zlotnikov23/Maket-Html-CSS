@@ -8,7 +8,7 @@ body {
   width: 100%;
   max-width: 1600px;
   height: 4840px;
-  outline: 1px solid black;
+  border: 1px solid black;
   margin: 80px;
 }
 .blok_background {
@@ -174,9 +174,9 @@ body {
   font-size: 12px;
   color: #061e37;
   font-weight: 700;
-  font-family: "Raleway";
   text-align: center;
 }
+
 .article-title {
   width: 100%;
   max-width: 1600px;
@@ -189,17 +189,17 @@ body {
   font-size: 45px;
   color: #061e37;
   font-weight: 600;
-  font-family: "Raleway";
   text-align: center;
 }
+
 .article_title_text {
   font-size: 25px;
   color: #b0bec5;
   font-weight: 600;
-  font-family: "Raleway";
   text-align: center;
   margin: 26px 0px 0px 0px;
 }
+
 .article_string {
   width: 100%;
   height: 63px;
@@ -207,7 +207,6 @@ body {
   line-height: 25px;
   color: #b0bec5;
   font-weight: 400;
-  font-family: "Raleway";
   text-align: center;
 }
 
@@ -252,10 +251,10 @@ body {
   line-height: 20px;
   color: #78909c;
   font-weight: 400;
-  font-family: "Raleway";
   text-align: center;
   margin: 0px 0px 83px 0px;
 }
+
 .article__button {
   width: 100%;
   max-width: 150px;
@@ -268,7 +267,6 @@ body {
   font-size: 15px;
   color: #ffffff;
   font-weight: 700;
-  font-family: "Raleway";
   cursor: pointer;
   margin: 0px 0px 0px 103px;
 }
@@ -338,9 +336,9 @@ body {
   line-height: 25px;
   color: #ffffff;
   font-weight: 800;
-  font-family: "Raleway";
   margin: 9px 199px 1px 15px;
 }
+
 .const_rew {
   display: flex;
   justify-content: space-around;
@@ -364,10 +362,10 @@ body {
   line-height: 25px;
   color: #ffffff;
   font-weight: 800;
-  font-family: "Raleway";
   margin: auto 0;
   padding: 0px 145px 0px 0px;
 }
+
 .const__box__icon_download {
   background: url(../Pictures/file_downloads.png) no-repeat 100% 100%;
   background-size: cover;
@@ -380,13 +378,13 @@ body {
   line-height: 25px;
   color: #061e37;
   font-weight: 600;
-  font-family: "Raleway";
   text-align: center;
 }
+
 .blok-fon {
   width: 1600px;
   height: 869px;
-  outline: 1px solid #000000;
+  border: 1px solid #000000;
 }
 .blok {
   width: 100%;
@@ -415,7 +413,7 @@ body {
 }
 .blok__content-batton {
   position: relative;
-  top: 73px;
+  top: 45px;
 }
 .blok__batton-menu {
   display: flex;
@@ -436,5 +434,5 @@ body {
   border-radius: 5px;
   filter: drop-shadow(0px 2px 2.5px rgba(0, 0, 0, 0.13));
   background-color: #ffffff;
-  margin-top: 0px;
+  margin-top: 20px;
 }
