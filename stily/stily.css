@@ -282,7 +282,6 @@ body {
   width: 100%;
   max-width: 1600px;
   height: 150px;
-  outline: 1px solid black;
 }
 .const_box_buslness {
   display: flex;
@@ -383,4 +382,59 @@ body {
   font-weight: 600;
   font-family: "Raleway";
   text-align: center;
+}
+.blok-fon {
+  width: 1600px;
+  height: 869px;
+  outline: 1px solid #000000;
+}
+.blok {
+  width: 100%;
+  max-width: 1600px;
+  height: 871px;
+  border: 1px solid #000000;
+}
+.contanier {
+  text-align: center;
+  position: relative;
+  top: 73px;
+}
+.title {
+  font-size: 45px;
+  color: #061e37;
+  font-weight: 600;
+}
+.blok__content {
+  text-align: center;
+}
+.blok__text {
+  font-size: 15px;
+  line-height: 25px;
+  color: #b0bec5;
+  font-weight: 400;
+}
+.blok__content-batton {
+  position: relative;
+  top: 73px;
+}
+.blok__batton-menu {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.batton-rounded {
+  width: 800px;
+  height: 240px;
+  border-radius: 5px;
+  filter: drop-shadow(0px 5px 10px rgba(0, 0, 0, 0.1));
+  background-color: #ffffff;
+}
+.batton-menu {
+  width: 800px;
+  height: 50px;
+  border-radius: 5px;
+  filter: drop-shadow(0px 2px 2.5px rgba(0, 0, 0, 0.13));
+  background-color: #ffffff;
+  margin-top: 0px;
 }
