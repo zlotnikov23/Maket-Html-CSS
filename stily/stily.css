@@ -456,3 +456,29 @@ body {
   max-width: 130px;
   display: flex;
 }
+.blok__content-batton {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 100%;
+  width: 100px;
+  height: 200px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+.blok__content-batton a {
+  color: black;
+  padding: 100px 10px;
+  text-decoration: none;
+  display: block;
+}
+
+.blok__content-batton a:hover {
+  background-color: #ddd;
+}
+.blok__batton:hover .blok__content-batton {
+  display: block;
+}
+.blok__batton:hover.batton-menu {
+  background-color: #000000;
+}
