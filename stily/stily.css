@@ -390,7 +390,6 @@ body {
   width: 100%;
   max-width: 1600px;
   height: 871px;
-  border: 1px solid #000000;
 }
 .contanier {
   text-align: center;
@@ -530,4 +529,17 @@ body {
   width: 100%;
   max-width: 52px;
   height: 36px;
+}
+.blok__reviews-page {
+  width: 100%;
+  max-width: 1600px;
+  height: 564px;
+  border: 1px solid#000000;
+}
+.block-reviews__img {
+  background: url(../Pictures/BGG.png) no-repeat 100% 100%;
+  background-size: cover;
+  width: 100%;
+  max-width: 1600px;
+  height: 564px;
 }
