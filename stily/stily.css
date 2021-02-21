@@ -407,14 +407,22 @@ body {
 }
 .blok__text {
   font-size: 15px;
-  line-height: 25px;
+  line-height: 37px;
   color: #b0bec5;
   font-weight: 400;
+}
+.battom-menu {
+  width: 800px;
+  height: 246px;
+  border-radius: 5px;
+  filter: drop-shadow(0px 2px 2.5px rgba(0, 0, 0, 0.13));
+  background-color: #ffffff;
+  margin-top: 20px;
 }
 
 .batton-menu {
   width: 800px;
-  height: 50px;
+  height: 246px;
   border-radius: 5px;
   filter: drop-shadow(0px 2px 2.5px rgba(0, 0, 0, 0.13));
   background-color: #ffffff;
@@ -426,20 +434,21 @@ body {
   background-repeat: no-repeat;
   background-position: center;
   width: 100%;
-  max-width: 30px;
-  height: 30px;
+  max-width: 52px;
+  height: 42px;
 }
 .blok__battom-pointer {
   background: url(../Pictures/arrow_drop_down.png);
   background-size: cover;
-
   width: 100%;
   max-width: 15px;
   height: 9px;
+  margin: 17px;
 }
+
 .blok__battom-text {
   font-size: 15px;
-  line-height: 25px;
+  line-height: 41px;
   color: #061e37;
   font-weight: 700;
   text-align: center;
@@ -447,38 +456,54 @@ body {
 .blok__batton-element {
   display: flex;
   justify-content: space-between;
-  align-items: center;
   width: 100%;
+  height: 44px;
 }
 
 .blok__left-side {
   width: 100%;
-  max-width: 130px;
+  max-width: 125px;
+  height: 34px;
   display: flex;
 }
-.blok__content-batton {
-  display: none;
-  position: absolute;
-  background-color: #f1f1f1;
-  min-width: 100%;
-  width: 100px;
-  height: 200px;
-  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
-  z-index: 1;
+.blok__img-cont {
+  background: url(../Pictures/Rounded_Rectangle_53.png);
+  background-size: cover;
+  width: 100%;
+  width: 249px;
+  height: 153px;
 }
-.blok__content-batton a {
-  color: black;
-  padding: 100px 10px;
-  text-decoration: none;
-  display: block;
+.blok__text-cont {
+  width: 475px;
+  line-height: 139px;
+
+  font-size: 15px;
+  line-height: 25px;
+  color: #061e37;
+  font-weight: 400;
 }
 
-.blok__content-batton a:hover {
-  background-color: #ddd;
+.blok__cont {
+  display: flex;
+  justify-content: space-around;
+  text-align: left;
 }
-.blok__batton:hover .blok__content-batton {
-  display: block;
+.btn-grup {
+  align-self: center;
 }
-.blok__batton:hover.batton-menu {
-  background-color: #000000;
+.blok__battom-menu {
+  width: 800px;
+  height: 52px;
+  border-radius: 5px;
+  filter: drop-shadow(0px 2px 2.5px rgba(0, 0, 0, 0.13));
+  background-color: #ffffff;
+  margin-top: 20px;
+}
+.blok__battom-mail {
+  background: url(../Pictures/mail.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100%;
+  max-width: 52px;
+  height: 36px;
 }
