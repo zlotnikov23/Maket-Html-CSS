@@ -507,3 +507,27 @@ body {
   max-width: 52px;
   height: 36px;
 }
+.blok__battom-group {
+  background: url(../Pictures/group.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100%;
+  max-width: 52px;
+  height: 36px;
+}
+.blok__battom-settings {
+  background: url(../Pictures/settings.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100%;
+  max-width: 52px;
+  height: 36px;
+}
+.blok__battom-rss_fid {
+  background: url(../Pictures/rss_feed.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100%;
+  max-width: 52px;
+  height: 36px;
+}
