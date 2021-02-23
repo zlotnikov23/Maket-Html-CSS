@@ -543,3 +543,15 @@ body {
   max-width: 1600px;
   height: 564px;
 }
+.blok-reviews__blocks {
+  display: flex;
+  justify-content: space-around;
+  margin: 20px;
+}
+
+.blok-reviews__str-titel {
+  font-size: 45px;
+  color: #ffffff;
+  font-weight: 600;
+  margin: 183px 559px 3px 0px;
+}
