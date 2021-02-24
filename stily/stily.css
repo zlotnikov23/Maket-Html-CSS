@@ -550,8 +550,36 @@ body {
 }
 
 .blok-reviews__str-titel {
+  width: 565px;
+  height: 37px;
   font-size: 45px;
   color: #ffffff;
   font-weight: 600;
-  margin: 183px 559px 3px 0px;
+}
+.blok-reviews__str-text {
+  font-size: 15px;
+  line-height: 25px;
+  color: #ffffff;
+  font-weight: 600;
+}
+.blocks__title-text {
+  width: 100%;
+  max-width: 250px;
+  height: 100px;
+}
+.blok-reviews__keyboard-up {
+  background: url(../Pictures/keyboard_arrow_up.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100%;
+  max-width: 52px;
+  height: 36px;
+}
+.blok-reiews__keyboard-down {
+  background: url(../Pictures/keyboard_arrow_down.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100%;
+  max-width: 52px;
+  height: 36px;
 }
