@@ -557,15 +557,19 @@ body {
   font-weight: 600;
 }
 .blok-reviews__str-text {
+  width: 565px;
+  height: 37px;
   font-size: 15px;
   line-height: 25px;
   color: #ffffff;
   font-weight: 600;
+  margin: 83px 0px;
 }
 .blocks__title-text {
   width: 100%;
-  max-width: 250px;
-  height: 100px;
+  max-width: 319px;
+  height: 210px;
+  margin: 92px;
 }
 .blok-reviews__keyboard-up {
   background: url(../Pictures/keyboard_arrow_up.png);
