@@ -592,6 +592,19 @@ body {
 .blok-reviews__button {
   width: 151px;
   height: 57px;
+  outline: none;
+  cursor: pointer;
+  border-radius: 15px;
   background: #000000;
   margin: 52px auto auto;
+}
+.blok-reviews__button:hover {
+  background-color: #0000ff;
+  color: #000000;
+}
+
+.blok-text--batton {
+  font-size: 15px;
+  color: #ffffff;
+  font-weight: 700;
 }
