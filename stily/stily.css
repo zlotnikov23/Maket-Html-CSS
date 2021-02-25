@@ -573,6 +573,10 @@ body {
   height: 317px;
   margin: 92px 0px 2px 0px;
 }
+.blocks__reviews {
+  width: 220px;
+  height: 220px;
+}
 .blok-reviews__keyboard-up {
   background: url(../Pictures/keyboard_arrow_up.png);
   background-repeat: no-repeat;
@@ -581,7 +585,8 @@ body {
   max-width: 52px;
   height: 36px;
 }
-.blok-reiews__keyboard-down {
+
+.blok-reviews__keyboard-down {
   background: url(../Pictures/keyboard_arrow_down.png);
   background-repeat: no-repeat;
   background-position: center;
