@@ -570,7 +570,7 @@ body {
 .blocks__title-text {
   width: 100%;
   max-width: 901px;
-  height: 210px;
+  height: 317px;
   margin: 92px 0px 2px 0px;
 }
 .blok-reviews__keyboard-up {
@@ -588,4 +588,10 @@ body {
   width: 100%;
   max-width: 52px;
   height: 36px;
+}
+.blok-reviews__button {
+  width: 151px;
+  height: 57px;
+  background: #000000;
+  margin: 52px auto auto;
 }
