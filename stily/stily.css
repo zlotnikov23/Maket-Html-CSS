@@ -569,12 +569,12 @@ body {
 }
 .blocks__title-text {
   width: 100%;
-  max-width: 901px;
+  max-width: 449px;
   height: 317px;
   margin: 92px 0px 2px 0px;
 }
 .blocks__reviews {
-  width: 220px;
+  width: 927px;
   height: 220px;
 }
 .blok-reviews__keyboard-up {
@@ -612,4 +612,20 @@ body {
   font-size: 15px;
   color: #ffffff;
   font-weight: 700;
+}
+.blok-reviews__user-icons {
+  background: url(../Pictures/Elli__user.png) no-repeat 100% 100%;
+  background-size: cover;
+  width: 100%;
+  max-width: 60px;
+  height: 65px;
+}
+.bloks-reviews__control-avatar {
+  display: flex;
+  justify-content: space-around;
+}
+.blok-reviews__box {
+  width: 30px;
+  height: 30px;
+  border: 1px solid #000000;
 }
