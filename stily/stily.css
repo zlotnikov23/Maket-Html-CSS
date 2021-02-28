@@ -546,7 +546,7 @@ body {
 .blok-reviews__blocks {
   display: flex;
   justify-content: space-around;
-  margin: 20px;
+  margin: 2px;
 }
 
 .blok-reviews__str-titel {
@@ -569,8 +569,8 @@ body {
 }
 .blocks__title-text {
   width: 100%;
-  max-width: 449px;
-  height: 317px;
+  max-width: 515px;
+  height: 464px;
   margin: 92px 0px 2px 0px;
 }
 .blocks__reviews {
@@ -584,6 +584,7 @@ body {
   width: 100%;
   max-width: 52px;
   height: 36px;
+  margin-left: 532px;
 }
 
 .blok-reviews__keyboard-down {
@@ -593,6 +594,7 @@ body {
   width: 100%;
   max-width: 52px;
   height: 36px;
+  margin-left: 532px;
 }
 .blok-reviews__button {
   width: 151px;
@@ -619,13 +621,24 @@ body {
   width: 100%;
   max-width: 60px;
   height: 65px;
+  margin: 123px 0px 1px 72px;
 }
 .bloks-reviews__control-avatar {
   display: flex;
   justify-content: space-around;
 }
 .blok-reviews__box {
-  width: 30px;
-  height: 30px;
-  border: 1px solid #000000;
+  width: 650px;
+  height: 168px;
+  border-radius: 14px;
+  margin: 56px 1px 0px 0px;
+  background: #ffffff;
+}
+.blok-reviews__user-Ellipse {
+  background: url(../Pictures/Ellipse_21.png) no-repeat 100% 100%;
+  background-size: cover;
+  width: 100%;
+  max-width: 60px;
+  height: 65px;
+  margin: 123px 0px 1px 72px;
 }
