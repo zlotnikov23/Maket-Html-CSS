@@ -603,7 +603,7 @@ body {
   cursor: pointer;
   border-radius: 15px;
   background: #000000;
-  margin: 52px auto auto;
+  margin: 103px auto auto;
 }
 .blok-reviews__button:hover {
   background-color: #0000ff;
@@ -634,11 +634,28 @@ body {
   margin: 56px 1px 0px 0px;
   background: #ffffff;
 }
-.blok-reviews__user-Ellipse {
+.blok-reviews__user-Ellips {
   background: url(../Pictures/Ellipse_21.png) no-repeat 100% 100%;
   background-size: cover;
   width: 100%;
   max-width: 60px;
   height: 65px;
   margin: 123px 0px 1px 72px;
+}
+.blok-reviews__box-titel {
+  font-size: 18px;
+  line-height: 25px;
+  color: #061e37;
+  font-weight: 700;
+}
+.blok-reviews__box-text {
+  width: 574px;
+  height: 63px;
+  font-size: 15px;
+  line-height: 25px;
+  color: #78909c;
+  font-weight: 400;
+}
+.blok-reviews__callback {
+  margin: 17px;
 }
