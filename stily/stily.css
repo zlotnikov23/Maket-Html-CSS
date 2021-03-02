@@ -659,3 +659,77 @@ body {
 .blok-reviews__callback {
   margin: 17px;
 }
+.blok-team {
+  width: 100%;
+  max-width: 1600px;
+  height: 763px;
+  border: 1px solid #000000;
+}
+.blok-team__team {
+  text-align: center;
+}
+.blok-team__titel {
+  font-size: 45px;
+  color: #061e37;
+  font-weight: 600;
+  margin: 102px auto 12px;
+}
+.blok-team__text {
+  font-size: 15px;
+  line-height: 25px;
+  color: #b0bec5;
+  font-weight: 400;
+}
+.blok-team__button {
+  display: flex;
+  justify-content: center;
+  margin: 19px;
+}
+.blok-team__ellips {
+  background: url(../Pictures/Ellipse\ 3\ copy\ 2.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100%;
+  max-width: 147px;
+  height: 146px;
+  border-radius: 173px;
+  background-color: #b0bec5;
+  border: 20px solid #ffffff;
+}
+.blok-team__ellips--icons {
+  background: url(../Pictures/Ellipse\ 3.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100%;
+  max-width: 200px;
+  height: 191px;
+  border-radius: 173px;
+  background-color: #b0bec5;
+  border: 20px solid #ffffff;
+}
+.blok-team__ellips--team {
+  background: url(../Pictures/Ellipse\ 3\ copy.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100%;
+  max-width: 147px;
+  height: 146px;
+  border-radius: 173px;
+  background-color: #b0bec5;
+  border: 20px solid #ffffff;
+}
+.blok-team__details {
+  text-align: center;
+}
+.blok-team__details-titel {
+  font-size: 18px;
+  line-height: 25px;
+  color: #061e37;
+  font-weight: 700;
+}
+.blok-team__details-text {
+  font-size: 15px;
+  line-height: 25px;
+  color: #90a4ae;
+  font-weight: 400;
+}
