@@ -7,7 +7,7 @@ body {
 .box-header {
   width: 100%;
   max-width: 1600px;
-  height: 4840px;
+  height: 4855px;
   border: 1px solid black;
   margin: 80px;
 }
@@ -732,7 +732,7 @@ body {
   color: #90a4ae;
   font-weight: 400;
 }
-.blok-team__icon {
+.blok-team__social {
   display: flex;
   justify-content: center;
 }
@@ -775,4 +775,26 @@ body {
   width: 100%;
   max-width: 60px;
   height: 65px;
+}
+.contact {
+  width: 100%;
+  max-width: 1600px;
+  height: 661px;
+  border: 1px solid #000000;
+  background: #f0f0f0;
+}
+.contact__positon {
+  text-align: center;
+  margin-top: 71px;
+}
+.contact__titel {
+  font-size: 45px;
+  color: #061e37;
+  font-weight: 600;
+}
+.contact__text {
+  font-size: 15px;
+  line-height: 25px;
+  color: #061e37;
+  font-weight: 400;
 }
