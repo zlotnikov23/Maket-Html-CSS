@@ -798,7 +798,7 @@ body {
   color: #061e37;
   font-weight: 400;
 }
-.search {
+.contact__search {
   display: flex;
   justify-content: center;
   margin: 0px;
@@ -816,7 +816,7 @@ nav input[type="search"] {
   margin: 11px;
   padding: 14px;
 }
-.field {
+.contact__field-search {
   text-align: center;
 }
 input[type="search"] {
@@ -832,9 +832,14 @@ input[type="search"] {
   margin: 5px;
   padding: 5px 16px 97px;
 }
-.gi {
-  display: flex;
-}
+
 .container {
   display: flex;
+  justify-content: space-around;
+}
+.contact__container-checkbox {
+  display: flex;
+}
+.text {
+  margin-top: 1px;
 }
