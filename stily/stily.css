@@ -859,3 +859,9 @@ input[type="search"] {
   color: #ffffff;
   font-weight: 500;
 }
+.contact__button-text {
+  font-size: 16px;
+  line-height: 30px;
+  color: #ffffff;
+  font-weight: 500;
+}
